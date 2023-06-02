@@ -82,34 +82,32 @@ body {
   top: 657px;
 
 }
-
 .team{
-  display: flex;
-
-
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .textteam h1{ 
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
+
   font-size: 4rem;
   line-height: 80px;
   color: #444444;
  
 }
 
- .avatar{
+#avatarmembers{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Cria três colunas de largura igual */
+  gap: 1.5rem;
+}
+
+.avatar{
+  width: 282px;
+  height: 310px; /* Defina a altura dos quadrados */
+  background-color: #D9D9D9; 
   
-  flex: 1; /* Cada coluna ocupa uma parte igual do espaço disponível */
-  height: 100px; /* Defina a altura das colunas */
-
-  background-color: gray; /* Defina a cor de fundo das colunas */
-  display: block;
-  margin: 1rem;
-  width: 100px; /* Defina a largura do quadrado */
-
-
-
- 
-
 }
