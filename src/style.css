@@ -111,3 +111,42 @@ body {
   background-color: #D9D9D9; 
   
 }
+
+.about{
+  background:#04273A;
+}
+.textabout h1{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+color: #444444;
+}
+
+.about{
+  color:#ffffff;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Cria três colunas de largura igual */
+  gap: 1.5rem;
+}
+.imageabout{
+  width: 282px;
+  height: 310px; /* Defina a altura dos quadrados */
+  background-color: #D9D9D9; 
+  
+}
+
+.button{
+  background: orange;
+  width: 179px;
+  height:72px;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: 0.4s
+
+  
+}
+.button:hover {
+  background:  #fbd38d;
+}
