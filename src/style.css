@@ -76,9 +76,40 @@ body {
 
 .equipe {
   position: absolute;
-width: 1440px;
-height: 204px;
-left: 0px;
-top: 657px;
+  width: 1440px;
+  height: 204px;
+  left: 0px;
+  top: 657px;
+
+}
+
+.team{
+  display: flex;
+
+
+}
+.textteam h1{ 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 80px;
+  color: #444444;
+ 
+}
+
+ .avatar{
+  
+  flex: 1; /* Cada coluna ocupa uma parte igual do espaço disponível */
+  height: 100px; /* Defina a altura das colunas */
+
+  background-color: gray; /* Defina a cor de fundo das colunas */
+  display: block;
+  margin: 1rem;
+  width: 100px; /* Defina a largura do quadrado */
+
+
+
+ 
 
 }
